@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <SeoTags
-        title="HTRC | Home"
+        title="Home"
         description="Calculate home energy savings and retrofit impact using advanced building physics."
         keywords="energy calculator, retrofit, building physics, energy savings"
       />

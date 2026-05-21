@@ -22,7 +22,7 @@ const Companies = () => {
   return (
     <>
       <SeoTags
-        title="HTRC | Companies"
+        title="Companies"
         description="Explore companies involved in sustainable building, energy retrofit solutions, and innovative technologies improving building performance."
         keywords="retrofit companies, energy retrofit, sustainable buildings, construction technology, retrofit solutions"
       />

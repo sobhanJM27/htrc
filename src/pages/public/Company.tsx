@@ -24,7 +24,7 @@ const Company = () => {
   return (
     <>
       <SeoTags
-        title={`HTRC | ${companyData?.name!}`}
+        title={companyData?.name!}
         description={companyData?.description}
         keywords={`retrofit company, energy retrofit, sustainable buildings, construction technology, retrofit solutions, ${companyData?.name}`}
       />

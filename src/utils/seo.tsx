@@ -8,10 +8,12 @@ export type SeoTagsProps = {
   children?: ReactNode;
 };
 
+const appName = import.meta.env.VITE_APP_NAME;
+
 const SeoTags = ({ title, description, keywords, children }: SeoTagsProps) => {
   return (
     <Helmet>
-      <title>{title}</title>
+      <title>{`${appName} | ${title}`}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       {children}

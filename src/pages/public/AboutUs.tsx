@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <>
       <SeoTags
-        title="HTRC | About Us"
+        title="About Us"
         description="Learn about HTRC and the mission behind our home energy retrofit calculator. We combine building physics, real-world retrofit data, and practical tools to help homeowners and professionals make smarter energy-efficiency decisions."
         keywords="HTRC, about HTRC, energy retrofit calculator, building physics, home energy efficiency, retrofit analysis, sustainable buildings"
       />
