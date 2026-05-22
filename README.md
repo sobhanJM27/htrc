@@ -1,45 +1,55 @@
 ```markdown
-# HTRC
+<p align="center">
+  <img src="./logo.png" alt="HTRC Logo" width="160" style="border-radius:12px;" />
+</p>
 
-A modern **React + TypeScript** frontend project built with **Vite**, focused on performance, scalable architecture, and clean UI development using **TailwindCSS** and **shadcn/ui** components.
+<h1 align="center">🏡 Home Thermal Retrofit Calculator (HTRC)</h1>
 
-## Tech Stack
+<p align="center">
+  A modern and high-performance <b>React + TypeScript</b> project built with <b>Vite</b>, designed for clean UI, scalability, and fast development — powered by <b>TailwindCSS</b> and <b>shadcn/ui</b>.
+</p>
 
-- React 19
-- TypeScript
-- Vite
-- TailwindCSS v4
-- shadcn/ui
-- Radix UI
-- React Query (TanStack Query)
-- React Router v7
-- Axios
-- React Helmet Async (SEO)
-- React Hot Toast
-- ESLint
+---
 
-## Features
+# 🚀 Features
 
-- Fast development environment powered by **Vite**
-- Modular and scalable **React + TypeScript** structure
-- API data fetching & caching using **React Query**
-- Clean and reusable UI components with **shadcn + Radix**
-- SEO support using **React Helmet**
-- Notifications system with **react-hot-toast**
-- Intersection Observer support for lazy loading / infinite scroll
-- Fully styled with **TailwindCSS**
+- Ultra‑fast development with **Vite**
+- Scalable & modular **React + TypeScript** architecture
+- Data fetching & caching via **React Query (TanStack Query)**
+- Beautiful UI powered by **TailwindCSS v4 + shadcn/ui + Radix**
+- Reusable components & clean design system
+- SEO‑ready with **React Helmet Async**
+- Toast notifications with **React Hot Toast**
+- Intersection Observer support (lazy loading, reveal animations)
+- Fully client-side routing with **React Router 7**
+- Smooth UX with custom Reveal animations
+- Well-structured constants, utils, hooks, and API layers
 
-## Installation
+---
+
+# 🛠️ Tech Stack
+
+### **Frontend**
+- ⚛️ React 19  
+- 🔷 TypeScript  
+- ⚡ Vite  
+- 🎨 TailwindCSS v4  
+- 🧩 shadcn/ui  
+- 🎛️ Radix UI  
+- 🔗 React Router v7  
+- 📦 Axios  
+- ♻️ React Query (TanStack Query)  
+- 🧠 React Helmet Async  
+- 🔥 React Hot Toast  
+
+---
+
+# 📦 Installation
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/htrc.git
-```
-
-Enter the project directory:
-
-```bash
 cd htrc
 ```
 
@@ -49,24 +59,40 @@ Install dependencies:
 npm install
 ```
 
-## Development
+---
 
-Run the development server:
+# 🧪 Development
+
+Run the dev server:
 
 ```bash
 npm run dev
 ```
 
-The app will be available at:
+App runs at:
 
 ```
 http://localhost:5173
 ```
 
-## Build
+---
 
-Build the project for production:
+# 🏗️ Build
+
+Build for production:
 
 ```bash
 npm run build
 ```
+
+---
+
+# ⚙️ Scripts
+
+```bash
+npm install     # Install dependencies
+npm run dev     # Start development server
+npm run build   # Create production build
+```
+
+---
