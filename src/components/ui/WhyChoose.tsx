@@ -18,8 +18,8 @@ const WhyChoose = () => {
         {whyChooseItems.map(({ icon: Icon, title, desc, id }, index) => (
           <Reveal
             key={id}
-            delay={index * 300}
-            side="button-6"
+            delay={index * 200}
+            side="bottom"
           >
             <div
               className={cn(

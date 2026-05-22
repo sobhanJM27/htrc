@@ -12,18 +12,12 @@ const MobileNav = ({ setOpen }: MobileNavProps) => {
       <div className="z-40">
         <ThemeToggle />
       </div>
-      <span className="font-semibold text-lg text-background dark:text-foreground">HTRCentre</span>
-      {/* <div className="flex items-center gap-3"> */}
-      {/* <Link
-          to="/login"
-          className="text-sm hover:text-muted-foreground! transition-all duration-300"
-        >
-          Sign In
-        </Link> */}
+      <span className="font-semibold text-lg text-background dark:text-foreground">
+        HTRCentre
+      </span>
       <button onClick={() => setOpen((prev) => !prev)}>
         <Hamburger className="w-6 h-6 text-muted-foreground dark:text-foreground" />
       </button>
-      {/* </div> */}
     </nav>
   );
 };

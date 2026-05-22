@@ -8,12 +8,15 @@ import { ErrorBoundary } from "react-error-boundary";
 import ErrorHandler from "./components/ErrorHandler.tsx";
 import { HelmetProvider } from "react-helmet-async";
 import { shadows } from "./constants/styles.ts";
+import handleTheme from "./utils/handleTheme.ts";
 
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: { staleTime: Infinity },
   },
 });
+
+handleTheme();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

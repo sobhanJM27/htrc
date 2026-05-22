@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="bg-background border-t border-border/50 py-18">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-2">
           <div className="lg:col-span-4 flex flex-col items-center md:items-start gap-3">
             <Link to="/">
               <Logo size="4rem" src="./logo.png" />

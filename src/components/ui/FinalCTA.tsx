@@ -10,7 +10,7 @@ export default function FinalCTA() {
         <div className="h-80 md:h-96 w-125 md:w-150 bg-primary/20 blur-[120px] rounded-full" />
       </div>
 
-      <Reveal duration="duration-700" side="bottom-8">
+      <Reveal delay={200} side="bottom">
         <div
           className={cn(
             "relative max-w-3xl mx-auto overflow-hidden rounded-3xl border border-border bg-card/80 backdrop-blur-xl p-8 md:p-12 text-center",

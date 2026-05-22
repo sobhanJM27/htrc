@@ -11,7 +11,7 @@ export type StepItemProps = {
 
 const StepItem = ({ number, title, desc, index = 0 }: StepItemProps) => {
   return (
-    <Reveal delay={index * 300} side="left-6">
+    <Reveal delay={index * 200} side="left">
       <div className="relative flex items-start gap-4 sm:gap-6">
         <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-primary/20 bg-primary text-sm font-bold text-secondary shadow-sm sm:h-11 sm:w-11">
           {number}

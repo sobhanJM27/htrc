@@ -7,14 +7,14 @@ import Slogan from "./Slogan";
 
 const DesktopNav = () => {
   return (
-    <nav className="relative hidden md:flex justify-between items-center h-12 z-10000 rounded-2xl">
-      <div className="flex gap-1 items-center">
+    <nav className="hidden md:flex items-center h-12 rounded-2xl gap-5">
+      <div className="flex flex-1 items-center gap-1">
         <Link to="/">
           <Logo src="/logo.png" size="3.5rem" />
         </Link>
         <Slogan className="text-lg" />
       </div>
-      <ul className="absolute left-3/7 -translate-x-1/2 flex gap-6">
+      <ul className="flex justify-center gap-6">
         {navbarTabs.map((item) => (
           <NavbarTab
             key={item.id}
@@ -24,12 +24,9 @@ const DesktopNav = () => {
           />
         ))}
       </ul>
-      {/* <Link to="/login">
-        <span className="font-semibold hover:text-muted-foreground transition-all duration-300">
-        Sign In
-        </span>
-        </Link> */}
-      <ThemeToggle />
+      <div className="flex flex-1 justify-end">
+        <ThemeToggle />
+      </div>
     </nav>
   );
 };
