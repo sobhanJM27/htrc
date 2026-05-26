@@ -31,6 +31,7 @@ export const textTitle4 =
 export const textBody1 = "text-base leading-8 text-justify hyphens-auto";
 export const textBody2 =
   "text-lg leading-8 lg:text-left text-center lg:text-justify hyphens-auto";
+export const textBody3 = "text-base max-w-md leading-relaxed"
 
 export const mainStyle = "flex flex-col items-center gap-5 p-8";
 export const sectionStyle = "gap-4 py-16 px-4";
@@ -42,6 +43,8 @@ export const bgTextColor2 =
 
 export const bgGradient1 =
   "bg-linear-to-r from-primary/20 to-transparent transition-all duration-300 blur";
+export const bgGradient2 =
+  "bg-linear-to-r from-transparent via-primary/30 to-transparent";
 
 export const bgButton1 =
   "bg-gradient-to-r from-primary to-ring/60 text-primary-foreground before:absolute before:inset-0 before:z-[-1] before:bg-secondary/30 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-300";
