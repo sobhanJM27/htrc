@@ -4,7 +4,6 @@ import Slogan from "./Slogan";
 import {
   bgTextColor1,
   sectionStyle,
-  textBody1,
   textBody2,
   textTitle1,
 } from "@/constants/styles";
